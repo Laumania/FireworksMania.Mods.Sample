@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "69be818a46ca876afc5cb370a0ceb00324b4437d"
+    },
     "com.unity.collab-proxy": {
       "version": "1.9.0",
       "depth": 0,
@@ -94,6 +101,13 @@
         "com.unity.modules.physics2d": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "net.laumania.fireworksmania-modtools": {
+      "version": "https://github.com/Laumania/FireworksMania.ModTools.git?path=Assets",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "46c3e5c01c78c2271e3c562eb18efd44fff9bfe6"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

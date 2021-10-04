@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1184703327, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
-  m_Name: Laumania_Rocket_Neptun
+  m_Name: Laumania_Rocket_Sample01
   m_EditorClassIdentifier: 
-  Id: Laumania_Rocket_Neptun
-  PrefabGameObject: {fileID: 8812055517302151302, guid: 3a1a406b286808b45aecfbdf3c2fd524, type: 3}
-  ItemName: Neptun
-  Icon: {fileID: 0}
+  _id: Laumania_Rocket_Sample01
+  _prefabGameObject: {fileID: 8812055517302151302, guid: 3a1a406b286808b45aecfbdf3c2fd524, type: 3}
+  _itemName: Sample 01
+  _icon: {fileID: 21300000, guid: e144ed382bc795d488eead79b1ab4556, type: 3}
   Unlockable: 0
   ShowInInventoryWhenLocked: 0
-  EntityDefinitionType: {fileID: 11400000, guid: c9ce9b437dadfcc4abcacad04a9fc8e3, type: 2}
+  _entityDefinitionType: {fileID: 11400000, guid: c9ce9b437dadfcc4abcacad04a9fc8e3, type: 2}

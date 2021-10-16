@@ -9808,9 +9808,11 @@ GameObject:
   - component: {fileID: 6679883184003403168}
   - component: {fileID: 5653513668116670202}
   - component: {fileID: 5285217747009865367}
-  - component: {fileID: 5368074508154881541}
   - component: {fileID: 14842088055719273}
   - component: {fileID: 4449145591021728961}
+  - component: {fileID: 2369769375060840518}
+  - component: {fileID: 4182155518229403364}
+  - component: {fileID: 5653712067096270146}
   m_Layer: 9
   m_Name: Laumania_SmokeBomb_Sample01_Prefab
   m_TagString: Untagged
@@ -9881,19 +9883,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityDefinition: {fileID: 11400000, guid: 2117bb4657e63ed42ab3c6d2e7c092e6, type: 2}
---- !u!135 &5368074508154881541
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7958125240331756234}
-  m_Material: {fileID: 13400000, guid: 0f193ade87c4ccd419abb62deae2ea8e, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &14842088055719273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9919,6 +9908,46 @@ MonoBehaviour:
   m_Script: {fileID: -1853490775, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &2369769375060840518
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7958125240331756234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.029651612
+  m_Height: 0.14643759
+  m_Direction: 1
+  m_Center: {x: -0.00015619397, y: -0.0006105602, z: 0}
+--- !u!65 &4182155518229403364
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7958125240331756234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04491873, y: 0.030406147, z: 0.054662257}
+  m_Center: {x: 0.00017627329, y: 0.06530478, z: 0.00031648576}
+--- !u!65 &5653712067096270146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7958125240331756234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04491873, y: 0.028866537, z: 0.05466226}
+  m_Center: {x: 0, y: -0.06492071, z: 0}
 --- !u!1001 &860982773672270489
 PrefabInstance:
   m_ObjectHideFlags: 0

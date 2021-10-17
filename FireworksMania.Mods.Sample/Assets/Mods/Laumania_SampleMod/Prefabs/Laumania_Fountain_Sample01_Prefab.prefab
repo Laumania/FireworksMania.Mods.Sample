@@ -13740,7 +13740,7 @@ ParticleSystem:
       properties: 0
       emitProbability: 1
   LightsModule:
-    enabled: 1
+    enabled: 0
     ratio: 0.1
     light: {fileID: 7812896963413248806}
     randomDistribution: 1
@@ -14807,7 +14807,7 @@ MonoBehaviour:
   _range: 0.4
   _upwardsmodifier: 0.2
   _forceMode: 0
-  _explosionForce: 75
+  _explosionForce: 25
   _applyForceRelativeToMass: 1
   _ignoreKinematic: 1
   _ignoreRigidbodies:

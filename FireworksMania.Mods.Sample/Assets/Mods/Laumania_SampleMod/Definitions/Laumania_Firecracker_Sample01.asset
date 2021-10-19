@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: Laumania_Firecracker_Sample01
   _prefabGameObject: {fileID: 4667271964784211420, guid: 4890e34f2608b15428dc0b17d9836e3e, type: 3}
-  _itemName: Sample 01
+  _itemName: Firecracker Sample 01
   _icon: {fileID: 21300000, guid: 85a851e5083df76429ab0571ba4279b2, type: 3}
   _entityDefinitionType: {fileID: 11400000, guid: 85f6fc646a4c2314a9f8136dacb40668, type: 2}

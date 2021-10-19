@@ -14,8 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: Laumania_Rocket_Sample01
   _prefabGameObject: {fileID: 8812055517302151302, guid: 3a1a406b286808b45aecfbdf3c2fd524, type: 3}
-  _itemName: Sample 01
+  _itemName: Rocket Sample 01
   _icon: {fileID: 21300000, guid: e144ed382bc795d488eead79b1ab4556, type: 3}
-  Unlockable: 0
-  ShowInInventoryWhenLocked: 0
   _entityDefinitionType: {fileID: 11400000, guid: c9ce9b437dadfcc4abcacad04a9fc8e3, type: 2}

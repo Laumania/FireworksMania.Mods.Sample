@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: Laumania_SmokeBomb_Sample01
   _prefabGameObject: {fileID: 7958125240331756234, guid: fafe507f8169e9445b9b2756514e0b23, type: 3}
-  _itemName: Sample 01
+  _itemName: SmokeBomb Sample 01
   _icon: {fileID: 21300000, guid: acbac636fe4b7c941a8f9f32a2d5d365, type: 3}
   _entityDefinitionType: {fileID: 11400000, guid: 754b1d8fd7373ff4cbd8ee200cd58f69, type: 2}

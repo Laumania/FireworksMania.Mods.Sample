@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _id: Laumania_PreloadedTube_Sample01
   _prefabGameObject: {fileID: 2722412823697358557, guid: 67bb3c863583323499d4050e0fddfd25, type: 3}
-  _itemName: Sample 01
+  _itemName: Preloaded Tube Sample 01
   _icon: {fileID: 21300000, guid: 3af3ae49a24fcb74691995632ded0242, type: 3}
   _entityDefinitionType: {fileID: 11400000, guid: 6a8da2b4f244cbb48b79c2e36a0cae30, type: 2}

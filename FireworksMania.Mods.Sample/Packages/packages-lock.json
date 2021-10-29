@@ -103,11 +103,11 @@
       "url": "https://packages.unity.com"
     },
     "net.laumania.fireworksmania-modtools": {
-      "version": "https://github.com/Laumania/FireworksMania.ModTools.git?path=Assets#v2021.10.2",
+      "version": "https://github.com/Laumania/FireworksMania.ModTools.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "5ef251a013c0fcf6f6dfd4e554fc2077db553e57"
+      "hash": "d545a836cd62d9ad53d1ff3f7d1cb8b486e34a2e"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

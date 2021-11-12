@@ -24443,8 +24443,8 @@ MonoBehaviour:
   _applyForceRelativeToMass: 1
   _ignoreKinematic: 1
   _ignoreRigidbodies:
-  - {fileID: 0}
-  _layers:
+  - {fileID: 1064135309747406490}
+  _affectedLayers:
     serializedVersion: 2
     m_Bits: 5633
   _igniteSurroundingIgnitables: 1

@@ -9661,7 +9661,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fa2e9ac17bf8924459944b42214d5f75, type: 2}
+  - {fileID: 2100000, guid: ca1c6020db619ba4d864d47aaade414d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9790,7 +9790,7 @@ MonoBehaviour:
   _ignoreKinematic: 0
   _ignoreRigidbodies:
   - {fileID: 5653513668116670202}
-  _layers:
+  _affectedLayers:
     serializedVersion: 2
     m_Bits: 513
   _igniteSurroundingIgnitables: 1

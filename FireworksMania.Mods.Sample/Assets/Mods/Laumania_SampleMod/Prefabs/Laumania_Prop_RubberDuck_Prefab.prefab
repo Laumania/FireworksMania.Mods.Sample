@@ -262,26 +262,14 @@ MonoBehaviour:
   m_Script: {fileID: 426763944, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PublicStringDeclaredBeforeEventsForTesting: Value set in mod 1
   OnBeginUse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
-        m_MethodName: PlaySingleSound
+      - m_Target: {fileID: 5284526674890493846}
+        m_TargetAssemblyTypeName: FireworksMania.Core.Behaviors.PlaySoundBehavior,
+          FireworksMania.Core
+        m_MethodName: PlaySound
         m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 8200133020884385598}
-        m_TargetAssemblyTypeName: UnityEngine.Rigidbody, UnityEngine
-        m_MethodName: set_useGravity
-        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -292,21 +280,7 @@ MonoBehaviour:
         m_CallState: 2
   OnEndUse:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6810092771287700629}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  PublicStringForTesting: Value set in mod 2
-  _privateStringWithSerializeFieldForTesting: Value set in mod 3
+      m_Calls: []
 --- !u!114 &5284526674890493846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,7 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sound: Laumania_RubberDuck
-  _playOnStart: 1
+  _playOnStart: 0
 --- !u!1001 &5607353178277596699
 PrefabInstance:
   m_ObjectHideFlags: 0

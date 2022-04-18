@@ -15,8 +15,8 @@ MonoBehaviour:
   _audioVariationClips:
   - {fileID: 8300000, guid: bf710c176a90eb1409a9d1961d51d84d, type: 3}
   _volume: 0.2
-  _minDistance: 5
-  _maxDistance: 50
+  _minDistance: 2
+  _maxDistance: 25
   _fadeInTime: 0
   _fadeOutTime: 0
   _randomPitchMin: -0.1

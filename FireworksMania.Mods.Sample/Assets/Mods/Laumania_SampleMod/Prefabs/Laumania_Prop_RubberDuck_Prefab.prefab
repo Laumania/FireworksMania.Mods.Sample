@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 4466790585746692370}
   - component: {fileID: 8076351686427893648}
   - component: {fileID: 5284526674890493846}
+  - component: {fileID: 4993465262459439265}
   m_Layer: 0
   m_Name: Laumania_Prop_RubberDuck_Prefab
   m_TagString: Untagged
@@ -281,10 +282,10 @@ MonoBehaviour:
   OnEndUse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5284526674890493846}
+      - m_Target: {fileID: 4993465262459439265}
         m_TargetAssemblyTypeName: FireworksMania.Core.Behaviors.PlaySoundBehavior,
           FireworksMania.Core
-        m_MethodName: StopSound
+        m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -306,7 +307,21 @@ MonoBehaviour:
   m_Script: {fileID: 633354770, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sound: Laumania_RubberDuck
+  _sound: Laumania_RubberDuck_Start
+  _playOnStart: 0
+--- !u!114 &4993465262459439265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810092771287700629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 633354770, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sound: Laumania_RubberDuck_End
   _playOnStart: 0
 --- !u!1001 &5607353178277596699
 PrefabInstance:

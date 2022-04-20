@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1615081461, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
-  m_Name: Laumania_RubberDuck
+  m_Name: Laumania_RubberDuck_End
   m_EditorClassIdentifier: 
   _audioVariationClips:
-  - {fileID: 8300000, guid: bf710c176a90eb1409a9d1961d51d84d, type: 3}
+  - {fileID: 8300000, guid: 705d75d1d223f694cb850f864c5c0a39, type: 3}
   _volume: 0.2
   _minDistance: 2
   _maxDistance: 25

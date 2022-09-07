@@ -96,10 +96,11 @@
       "url": "https://packages.unity.com"
     },
     "net.laumania.fireworksmania-modtools": {
-      "version": "file:D:/Projects/Github/FireworksMania.ModTools/Assets",
+      "version": "https://github.com/Laumania/FireworksMania.ModTools.git#experimental",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "c1881ce07ec02d32ffbaa7c65acb25fdf7e7f784"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

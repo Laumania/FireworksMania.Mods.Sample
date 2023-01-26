@@ -14967,7 +14967,7 @@ MonoBehaviour:
   _ignoreKinematic: 1
   _ignoreRigidbodies:
   - {fileID: 4646144247813563087}
-  _layers:
+  _affectedLayers:
     serializedVersion: 2
     m_Bits: 5633
   _igniteSurroundingIgnitables: 1
@@ -29568,7 +29568,7 @@ MonoBehaviour:
   _ignoreKinematic: 1
   _ignoreRigidbodies:
   - {fileID: 4646144247813563087}
-  _layers:
+  _affectedLayers:
     serializedVersion: 2
     m_Bits: 5633
   _igniteSurroundingIgnitables: 1

@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.cysharp.unitask": {
-      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "69be818a46ca876afc5cb370a0ceb00324b4437d"
-    },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
       "depth": 1,
@@ -15,7 +8,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.15",
+      "version": "3.0.16",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -91,11 +84,11 @@
       "url": "https://packages.unity.com"
     },
     "net.laumania.fireworksmania-modtools": {
-      "version": "https://github.com/Laumania/FireworksMania.ModTools.git#experimental",
+      "version": "https://github.com/Laumania/FireworksMania.ModTools.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "c1881ce07ec02d32ffbaa7c65acb25fdf7e7f784"
+      "hash": "cbc0d4b215b5215477869bc58294f9fc282a2710"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

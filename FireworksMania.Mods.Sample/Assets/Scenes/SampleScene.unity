@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -104,7 +103,7 @@ NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -117,7 +116,7 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
-    accuratePlacement: 0
+    buildHeightMesh: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -209,12 +208,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -256,9 +256,17 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -292,20 +300,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.101742424, y: 0.88056546, z: -0.21998318, w: -0.40725967}
   m_LocalPosition: {x: 0.5546093, y: 0.82612896, z: 0.4725628}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1021284965
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5046947574683333020, guid: 3a1a406b286808b45aecfbdf3c2fd524, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2294200260
+      objectReference: {fileID: 0}
     - target: {fileID: 1615788875269766762, guid: 3a1a406b286808b45aecfbdf3c2fd524, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -355,14 +369,22 @@ PrefabInstance:
       value: Laumania_Rocket_Sample01_Prefab
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a1a406b286808b45aecfbdf3c2fd524, type: 3}
 --- !u!1001 &1648731458
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -947566301880537958, guid: 8ca6bae4d87a6314ba498f270e0623a6, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3730177186
+      objectReference: {fileID: 0}
     - target: {fileID: 7790515416929502550, guid: 8ca6bae4d87a6314ba498f270e0623a6, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -412,6 +434,9 @@ PrefabInstance:
       value: Laumania_Cake_Sample01_Prefab
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ca6bae4d87a6314ba498f270e0623a6, type: 3}
 --- !u!1 &1983455134
 GameObject:
@@ -440,9 +465,17 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983455134}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 4
+  serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -503,20 +536,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983455134}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &284154196156428742
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1721100630333499545, guid: f9c8d5ec341206545b66104debe02266, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2342407664
+      objectReference: {fileID: 0}
     - target: {fileID: 5283962165713137339, guid: f9c8d5ec341206545b66104debe02266, type: 3}
       propertyPath: m_Name
       value: Laumania_Fountain_Sample01_Prefab
@@ -566,14 +605,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9c8d5ec341206545b66104debe02266, type: 3}
 --- !u!1001 &862165077979028963
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -96738907662310595, guid: a9a29d3094314a149bd66151c408b61a, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 551019905
+      objectReference: {fileID: 0}
     - target: {fileID: 9173935397972059385, guid: a9a29d3094314a149bd66151c408b61a, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -623,14 +670,22 @@ PrefabInstance:
       value: Laumania_RomanCandle_Sample01_Prefab
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9a29d3094314a149bd66151c408b61a, type: 3}
 --- !u!1001 &987401120036074617
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1683326178354176787, guid: fafe507f8169e9445b9b2756514e0b23, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1661108818
+      objectReference: {fileID: 0}
     - target: {fileID: 7958125240331756234, guid: fafe507f8169e9445b9b2756514e0b23, type: 3}
       propertyPath: m_Name
       value: Laumania_SmokeBomb_Sample01_Prefab
@@ -680,14 +735,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fafe507f8169e9445b9b2756514e0b23, type: 3}
 --- !u!1001 &1704829011649425056
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2123926470299587217, guid: 4890e34f2608b15428dc0b17d9836e3e, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2601365186
+      objectReference: {fileID: 0}
     - target: {fileID: 4667271964784211420, guid: 4890e34f2608b15428dc0b17d9836e3e, type: 3}
       propertyPath: m_Name
       value: Laumania_Firecracker_Sample01_Prefab
@@ -737,14 +800,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4890e34f2608b15428dc0b17d9836e3e, type: 3}
 --- !u!1001 &3777452855282998670
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7310384470860088828, guid: 169976e47655cd843a1cd8cfcdc73731, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1346023744
+      objectReference: {fileID: 0}
     - target: {fileID: 4785997345295936109, guid: 169976e47655cd843a1cd8cfcdc73731, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -794,12 +865,16 @@ PrefabInstance:
       value: Laumania_Zipper_Sample01_Prefab
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 169976e47655cd843a1cd8cfcdc73731, type: 3}
 --- !u!1001 &5642801984144654465
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2722412823697358556, guid: 67bb3c863583323499d4050e0fddfd25, type: 3}
@@ -850,15 +925,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: Laumania_PreloadedTube_Sample01_Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6510535506372331541, guid: 67bb3c863583323499d4050e0fddfd25, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2524043419
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67bb3c863583323499d4050e0fddfd25, type: 3}
 --- !u!1001 &6125854336826913360
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1867993185664448155, guid: bf1e3fb1d9494dc449133045ff1458fd, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1010665299
+      objectReference: {fileID: 0}
     - target: {fileID: 6125854336893023529, guid: bf1e3fb1d9494dc449133045ff1458fd, type: 3}
       propertyPath: m_Name
       value: Laumania_Whistler_Sample01_Prefab
@@ -908,14 +995,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf1e3fb1d9494dc449133045ff1458fd, type: 3}
 --- !u!1001 &8181690939748417455
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 250437670415897130, guid: 8633b87d8725f6d4d953aba91a4845f3, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3073698081
+      objectReference: {fileID: 0}
     - target: {fileID: 6137856755406914076, guid: 8633b87d8725f6d4d953aba91a4845f3, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -965,4 +1060,24 @@ PrefabInstance:
       value: Laumania_Prop_RubberDuck_Prefab
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8633b87d8725f6d4d953aba91a4845f3, type: 3}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 963194228}
+  - {fileID: 705507995}
+  - {fileID: 1983455138}
+  - {fileID: 1704829011649425056}
+  - {fileID: 5642801984144654465}
+  - {fileID: 1648731458}
+  - {fileID: 1021284965}
+  - {fileID: 862165077979028963}
+  - {fileID: 987401120036074617}
+  - {fileID: 284154196156428742}
+  - {fileID: 6125854336826913360}
+  - {fileID: 3777452855282998670}
+  - {fileID: 8181690939748417455}

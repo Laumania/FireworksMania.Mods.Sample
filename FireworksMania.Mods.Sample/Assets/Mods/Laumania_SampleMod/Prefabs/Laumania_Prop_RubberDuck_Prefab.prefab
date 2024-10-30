@@ -24,12 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274057008105842926}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.013}
   m_LocalScale: {x: 0.098437496, y: 0.057811577, z: 0.1625}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5358135102982957552}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &4282702115331506011
 BoxCollider:
@@ -39,9 +40,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 274057008105842926}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1596833977981570912
@@ -67,13 +76,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1596833977981570912}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5358135102982957552}
   m_Father: {fileID: 6137856755406914076}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5130887945078986191
 GameObject:
@@ -99,12 +109,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5130887945078986191}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.5937271, y: -0, z: -0, w: 0.8046665}
   m_LocalPosition: {x: 0, y: 0.057, z: 0.1053}
   m_LocalScale: {x: 0.06398437, y: 0.036868162, z: 0.1625}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5358135102982957552}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -72.844, y: 0, z: 0}
 --- !u!65 &7350679619957485102
 BoxCollider:
@@ -114,9 +125,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5130887945078986191}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6810092771287700629
@@ -130,14 +149,15 @@ GameObject:
   - component: {fileID: 6137856755406914076}
   - component: {fileID: 8200133020884385598}
   - component: {fileID: 778329764158710722}
-  - component: {fileID: 7837339373800055264}
-  - component: {fileID: 5365329999943433710}
+  - component: {fileID: 250437670415897130}
   - component: {fileID: 6239551321777703733}
   - component: {fileID: 5648184982613969855}
   - component: {fileID: 4466790585746692370}
   - component: {fileID: 8076351686427893648}
   - component: {fileID: 5284526674890493846}
   - component: {fileID: 4993465262459439265}
+  - component: {fileID: 7950075453779324458}
+  - component: {fileID: 3732644764669547944}
   m_Layer: 0
   m_Name: Laumania_Prop_RubberDuck_Prefab
   m_TagString: Untagged
@@ -152,13 +172,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6810092771287700629}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.322, y: 0, z: -0.125}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6683334148170783112}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &8200133020884385598
 Rigidbody:
@@ -167,10 +188,21 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6810092771287700629}
-  serializedVersion: 2
+  serializedVersion: 4
   m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -185,11 +217,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6810092771287700629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 249385142, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
+  m_Script: {fileID: 11500000, guid: 863a37014c3aafc4b94d2bab656e8c69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _entityDefinition: {fileID: 11400000, guid: f185c2dca691d5f49b71a38e10cde923, type: 2}
---- !u!114 &7837339373800055264
+  _saveTransformData: 1
+--- !u!114 &250437670415897130
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -198,21 +231,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 6810092771287700629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1390082805, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5365329999943433710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6810092771287700629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 224251883, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 2280031965
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
 --- !u!114 &6239551321777703733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +252,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6810092771287700629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1853490775, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ae0b807dd066e84bbc726130033d20b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!65 &5648184982613969855
@@ -233,9 +263,17 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6810092771287700629}
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Size: {x: 0.115694225, y: 0.08611242, z: 0.22719789}
   m_Center: {x: -0.0012797415, y: 0.015704468, z: 0.024101064}
 --- !u!114 &4466790585746692370
@@ -247,7 +285,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6810092771287700629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -432571082, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
+  m_Script: {fileID: 11500000, guid: 30f422483e2581344b2260f179db3afd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _sound: SFX_Impact_GeneralMedium
@@ -260,9 +298,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6810092771287700629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 426763944, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
+  m_Script: {fileID: 11500000, guid: 96b243a40ecec394883d672938a33f9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _customText: 
+  _showHighlight: 1
+  _showInteractionUI: 1
   OnBeginUse:
     m_PersistentCalls:
       m_Calls:
@@ -304,11 +345,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6810092771287700629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 633354770, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b13cc7fad8f7de4dac73dd75c24736a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _sound: Laumania_RubberDuck_Start
   _playOnStart: 0
+  _followTransform: 0
 --- !u!114 &4993465262459439265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,16 +360,61 @@ MonoBehaviour:
   m_GameObject: {fileID: 6810092771287700629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 633354770, guid: 15f2946a651cfd84c804c26926af6433, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b13cc7fad8f7de4dac73dd75c24736a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _sound: Laumania_RubberDuck_End
   _playOnStart: 0
+  _followTransform: 0
+--- !u!114 &7950075453779324458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810092771287700629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0364e93a79feea3488c32a7132a7b558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseUnreliableDeltas: 0
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 1
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 1
+  SyncScaleX: 1
+  SyncScaleY: 1
+  SyncScaleZ: 1
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  UseQuaternionSynchronization: 0
+  UseQuaternionCompression: 0
+  UseHalfFloatPrecision: 0
+  InLocalSpace: 0
+  Interpolate: 1
+  SlerpPosition: 0
+--- !u!114 &3732644764669547944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6810092771287700629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1da80dc596dbb8469d95fbe68c32727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5607353178277596699
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 6683334148170783112}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f5bb269fca5f6d74fbcb1b71e7f3ebea, type: 3}
@@ -379,6 +466,15 @@ PrefabInstance:
       value: Laumania_Prop_RubberDuck
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: f5bb269fca5f6d74fbcb1b71e7f3ebea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4831906790163327923}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: f5bb269fca5f6d74fbcb1b71e7f3ebea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7760236578668682416}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5bb269fca5f6d74fbcb1b71e7f3ebea, type: 3}
 --- !u!4 &5358135102982957552 stripped
 Transform:

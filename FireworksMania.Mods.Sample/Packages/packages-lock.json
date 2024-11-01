@@ -208,7 +208,7 @@
       "url": "https://packages.unity.com"
     },
     "net.laumania.fireworksmania-modtools": {
-      "version": "https://github.com/Laumania/FireworksMania.ModTools.git#multiplayer",
+      "version": "https://github.com/Laumania/FireworksMania.ModTools.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -220,7 +220,7 @@
         "com.unity.timeline": "1.7.6",
         "com.unity.postprocessing": "3.4.0"
       },
-      "hash": "a6227f2daefcdf5fad459295a894514f4e45c64c"
+      "hash": "d3f022c203d70bf129f2061db396f20ddc5e54ab"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

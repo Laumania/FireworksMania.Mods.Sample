@@ -20,11 +20,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
-      "version": "2.10.4",
+      "version": "3.1.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.test-framework": "1.1.31"
+        "com.unity.splines": "2.0.0",
+        "com.unity.modules.imgui": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -65,13 +66,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.ide.vscode": {
-      "version": "1.2.5",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.inputsystem": {
       "version": "1.14.2",
       "depth": 1,
@@ -97,12 +91,12 @@
       }
     },
     "com.unity.netcode.gameobjects": {
-      "version": "1.14.1",
+      "version": "2.2.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.transport": "1.4.0",
-        "com.unity.nuget.mono-cecil": "1.10.1"
+        "com.unity.transport": "2.4.0",
+        "com.unity.nuget.mono-cecil": "1.11.4"
       },
       "url": "https://packages.unity.com"
     },
@@ -126,6 +120,24 @@
       "source": "registry",
       "dependencies": {
         "com.unity.modules.physics": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.settings-manager": {
+      "version": "2.1.0",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.splines": {
+      "version": "2.8.2",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
       },
       "url": "https://packages.unity.com"
     },
@@ -164,14 +176,6 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.unity.textmeshpro": {
-      "version": "5.0.0",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.ugui": "2.0.0"
-      }
     },
     "com.unity.timeline": {
       "version": "1.8.9",
@@ -230,15 +234,14 @@
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.netcode.gameobjects": "1.11.0",
+        "com.unity.netcode.gameobjects": "2.2.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
-        "com.unity.cinemachine": "2.10.1",
-        "com.unity.inputsystem": "1.7.0",
-        "com.unity.textmeshpro": "3.0.6",
-        "com.unity.timeline": "1.7.6",
+        "com.unity.cinemachine": "3.1.3",
+        "com.unity.inputsystem": "1.13.1",
+        "com.unity.timeline": "1.8.7",
         "com.unity.postprocessing": "3.4.0"
       },
-      "hash": "d3f022c203d70bf129f2061db396f20ddc5e54ab"
+      "hash": "6f4bfdc57298d509d69d87a3e673acfe5a69e6f3"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
